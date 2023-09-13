@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let atacante = prompt('Personagem 1');
+        let poderDeAtaque = parseFloat( prompt('Poder de ataque dele'));
+
+        let defensor = prompt('Personagem 2');
+        let pontosDeVida = parseFloat( prompt('Vida do personagem 2'));
+        let poderDeDefesa = parseFloat (prompt("Qual é o valor da desesa do personagem 2?"))
+        let possuiEscudo = prompt("Ele possui escudo?(Sim/Não)");
+
+        let danoCausado = 0;
+        
+
+    if (poderDeAtaque > poderDeDefesa && possuiEscudo === "Não") {
+        danoCausado = poderDeAtaque - poderDeDefesa;
+    } else if (poderDeAtaque > poderDeDefesa && possuiEscudo === "Sim") {
+        danoCausado = (poderDeAtaque - poderDeDefesa) / 2;
+    }
+
+    pontosDeVida -= danoCausado;
+        document.write(`O atacante causou ${danoCausado} de dano no personagem 2 que ficou com ${pontosDeVida} de vida`);
+
+    </script>
+    
+</body>
+</html>

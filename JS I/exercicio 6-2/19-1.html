@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    var veiculoUm = prompt('Digite o nome do veículo um');
+    var velCarUm = prompt('Qual é a velocidade do veículo um');
+
+
+    var veiculoDois = prompt('Digite o nome do segundo veículo');
+    var velCarDois = prompt('Qual a velocidade do veículo dois?');
+
+    function maisRapido() {
+    if (velCarUm > velCarDois) {
+        document.write(`O veículo ${veiculoUm} é mais rápido`);
+
+    } else {
+        document.write(`O veículo ${veiculoDois} é mais rápido`);
+    }
+}
+
+maisRapido();
+
+    </script>
+    
+</body>
+</html>
