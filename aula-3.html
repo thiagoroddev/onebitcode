@@ -40,6 +40,23 @@
         // slice (cortar e concatenar elementos)
         let sliceT = teste.slice(0,2)
         console.log(sliceT)
+
+        // concat (concatena arrays)
+        const teste2 = ["eu", "tu"]
+        const teste3 = ["ela"]
+        const sociedade = teste.concat(teste2, teste3)
+        console.log(sociedade)
+
+        // splice (substitui elementos do array)
+        const elementosRemovidos = sociedade.splice(2, 1, "splice")
+        console.log(sociedade)
+        console.log(elementosRemovidos)
+
+        // for (iterar sobre os elementos)
+        for (let indice = 0 ; indice <= sociedade.length; indice ++ ) {
+            const elemento2 = sociedade[indice]
+            console.log(elemento2 + " se encontra na posição " + indice)
+        }
     </script>
 </body>
 </html>
