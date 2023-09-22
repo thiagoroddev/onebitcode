@@ -6,12 +6,46 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Fila de espera</h1>
+    
     <script>
-        let fila = ["EU"]
+        let fila = ["Matheus", "Roger"]
         
-        document.write(fila)
-                
+        let menu = prompt("Escolha uma opção: \n 1 - Novo paciente \n 2 - Atender paciente \n 3 - Sair")
+    
+        while (menu != "3") {
+            
+
+            switch (menu) {
+                case "1": 
+                    let novoPaciente = prompt("Digite o nome o paciente");
+                    fila.push(novoPaciente);
+                    alert(fila);
+                    menu = prompt("Escolha uma opção: \n 1 - Novo paciente \n 2 - Atender paciente \n 3 - Sair");
+                    break;
+
+                case "2": 
+                    fila.shift();
+                    alert(fila);
+                    menu = prompt("Escolha uma opção: \n 1 - Novo paciente \n 2 - Atender paciente \n 3 - Sair");
+                    break;
+
+                case "3": 
+                    alert("Programa encerrado");
+                    break;
+2
+                default :
+                    alert("Erro");
+                    menu = prompt("Escolha uma opção: \n 1 - Novo paciente \n 2 - Atender paciente \n 3 - Sair");
+                    break
+            }
+
+        } 
+
+        alert("Programa encerrado");
+
+
+        
+        
 
     </script>
     

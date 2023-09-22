@@ -92,19 +92,30 @@
                 
                 <div class="novo-paciente">
                     <h1>Novo Paciente</h1>
-                    <input type="button" value="Entrar na Fila">
+                    <input type="button" value="Entrar na Fila" id="paciente-adicionado" onclick="novoPacientei()">
                 </div>
                 <div class="consultar-paciente">
                     <h1>Consultar Paciente(andar a fila)</h1>
-                    <input type="button" value="Andar fila">
+                    <input type="button" value="Andar fila" id="atendido">
                 </div>
                 <div class="sair">
                     <h1>Sair</h1>
-                    <input type="button" value="Sair">
+                    <input type="button" value="Sair" id="finalizado">
                 </div>
             </section>
         </main>
         <script>
+            let fila = [];
+    
+
+            function novoPacientei() {
+                let novoPaciente = prompt("Nome do paciente");
+                fila.push(novoPaciente);
+                document.getElementsByClassName("fila").innerHTML = <p>eu</p>;
+            }
+            
+
+
             
         </script>
 
