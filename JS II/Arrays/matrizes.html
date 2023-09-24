@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let array = [
+            "1° Nível",
+            ["2 nível", 34, true],
+            [
+                ["3 nível, 1 item", "Olá"],
+                ["3 nível, 2 item", "Oi"],
+            ],
+            []
+            ]
+
+        console.log(array)
+        console.log(array[0])   
+        console.log(array[1])   
+        console.log(array[1][0])   
+        console.log(array[1][1])   
+        console.log(array[1][2])   
+        console.log(array[2])   
+        console.log(array[2][0])   
+        console.log(array[2][1])   
+        console.log(array[2][0][0])   
+        console.log(array[2][0][1])   
+        console.log(array[2][1][0])   
+        console.log(array[2][1][1])   
+        console.log(array[3])   
+
+        const matriz = [
+            ["l1, c1", "l1, c2", "l1, c3", "l1, c4"],
+            ["l2, c1", "l2, c2", "l2, c3", "l2, c4"],
+            ["l3, c1", "l3, c2", "l3, c3", "l3, c4"]
+        ]
+
+        console.table(matriz)
+
+        matriz.push(["nova linha"])
+        matriz[0].push("nova coluna")
+        
+
+        for (let i = 0 ; i < matriz.length; i++) {
+            for ( let j = 0 ; j < matriz[i].length; j++){
+                const elemento = matriz[i][j]
+                console.log("Posição: (" + i + ", " + ") Valor: " + elemento)
+            }
+        }
+    
+    </script>
+    
+</body>
+</html>
