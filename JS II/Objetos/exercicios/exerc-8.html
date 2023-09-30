@@ -19,6 +19,45 @@
     </h1>
 
     <script>
+        let imovel = {
+            nome:"",
+            quartos:"",
+            banheiros: "",
+            garagem: ""
+        }
+        
+        do {
+            
+        const menu = prompt("Escolha uma opção: \n 1. Salvar imóvel \n 2. Mostrar imóveis \n 3. Sair")
+
+            
+        switch (menu) {
+            case "1": 
+                let nomeProprietario = prompt("Digite o nome do proprietário")
+                let addNome = imovel.nome.push(nomeProprietario)
+
+                let quantQuartos = prompt("Digite a quantidade de quartos")
+                let addQuartos = imovel.quartos.push(quantQuartos)
+
+                let quantBanheiros = prompt("Digite a quantidade de banheiros")
+                let addBanheiro = imovel.banheiros.push(quantBanheiros)
+
+                let possuiGaragem = prompt("Tem garagem?")
+                if (possuiGaragem === "sim") {
+                    imovel.garagem.push(true)
+                }
+                break
+
+            case "2": 
+                alert(imovel)
+                break
+    ds
+            case "3": 
+                alert("Encerrando.")
+                break
+        }
+        } while (menu !== "3")
+
 
     </script>
     
