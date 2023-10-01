@@ -19,43 +19,55 @@
     </h1>
 
     <script>
-        let imovel = {
-            nome:"",
-            quartos:"",
-            banheiros: "",
-            garagem: ""
-        }
+        let imoveis = []
+        let menu = ""
         
         do {
+            menu = prompt("Escolha uma opção: \n1. Salvar imóvel \n2. Mostrar imóveis \n3. Sair")
             
-        const menu = prompt("Escolha uma opção: \n 1. Salvar imóvel \n 2. Mostrar imóveis \n 3. Sair")
+            switch (menu) {
+                case "1": 
+                    let imovel = {}
 
-            
-        switch (menu) {
-            case "1": 
-                let nomeProprietario = prompt("Digite o nome do proprietário")
-                let addNome = imovel.nome.push(nomeProprietario)
+                    imovel.proprietario = prompt("Digite o nome do proprietário");
+                    imovel.quartos = prompt("Digite a quantidade de quartos");
+                    imovel.banheiros = prompt("Digite a quantidade de banheiros");
+                    imovel.garagem = prompt("Tem garagem?")
 
-                let quantQuartos = prompt("Digite a quantidade de quartos")
-                let addQuartos = imovel.quartos.push(quantQuartos)
+                    const confirmacao = confirm(
+                        "Salvar este imóvel?\n" +
+                        "\nProprietário: " + imovel.proprietario +
+                        "\nQuartos: " + imovel.quartos +
+                        "\nBanheiros: " + imovel.banheiros +
+                        "\nPossui garagem?: " + imovel.garagem
+                    )
 
-                let quantBanheiros = prompt("Digite a quantidade de banheiros")
-                let addBanheiro = imovel.banheiros.push(quantBanheiros)
+                    if (confirmacao) {
+                        imoveis.push(imovel)
+                    }
+                    break
 
-                let possuiGaragem = prompt("Tem garagem?")
-                if (possuiGaragem === "sim") {
-                    imovel.garagem.push(true)
-                }
-                break
+                case "2":
+                    for (let i = 0 ; i < imoveis.length ; i++) { 
+                        alert(
+                            "Quantidade de imóveis: " + imoveis.length + 
+                            "\n Imóvel " + (i + 1) +
+                            "\n Proprieário : " + imoveis[i].proprietario + 
+                            "\n Quartos: " + imoveis[i].quartos +   
+                            "\n Banheiros: " + imoveis[i].banheiros +   
+                            "\n Possui garagem? : " + imoveis[i].garagem 
+                        ) 
+                    }
+                    break
+                    
+                case "3": 
+                    alert("Encerrando.")
+                    break
 
-            case "2": 
-                alert(imovel)
-                break
-    ds
-            case "3": 
-                alert("Encerrando.")
-                break
-        }
+                default: 
+                    alert("Error")
+            }
+
         } while (menu !== "3")
 
 
