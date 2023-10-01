@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function teste() {
+            console.log("Testando")
+        }
+
+        function dobro (x) {
+            alert("O dobro de " + x + "é " + (x * 2))
+        }
+
+        function dizerOi (nome = " Fulano") {
+            alert("Olá " + nome + "!")
+        }
+
+        function soma (a, b) {
+            alert ("O resultado da soma é " + (a + b))
+        } 
+
+        function criarUsuario (nome, email, senha, tipo) {
+            const usuario = {
+            nome, // mesmo que nome: nome
+            email,
+            senha,
+            tipo
+            }
+
+           console.log(usuario) 
+        }
+
+        function novoUsuario (nome, tipo = "admin", email, senha) {
+            const usuarioN = {
+                nome,
+                email, 
+                senha,
+                tipo
+            }
+
+            console.log(usuarioN)
+
+        }
+
+        criarUsuario ("Isaac", "isaac@gmail.com", "1234")
+        novoUsuario ("Isaac", "admin", "isaac@gmail.com" , "1234")
+
+        // parâmetros padrões devem ficar no final
+
+        function muitosParametros (nome, telefone, endereco, aniversario, email, senha) {
+            //...
+        }
+
+        muitosParametros ("nome", "telefone", "endereco", "aniversario", "email", "senha")
+
+        function objetoComoParametro (usuario) {
+            //,,
+
+           usuario.nome 
+           usuario.telefone
+
+           console.log(usuario.nome)
+           console.log(usuario.telefone)
+           console.log(usuario)
+        }
+
+        const dadosUsuario = {
+            nome: "Thiago",
+            telefone: "21",
+            email : "afdzf@FDFD"
+           
+        }
+
+        objetoComoParametro(dadosUsuario)
+        
+        
+        
+
+
+    </script>
+    
+</body>
+</html>
