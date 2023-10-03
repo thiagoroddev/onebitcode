@@ -7,7 +7,39 @@
 </head>
 <body>
     <script>
-        
+        function calcularMedia(a, b) {
+            const media = (a + b) / 2
+            return media
+        }
+
+
+        const resultado = calcularMedia (7, 2)
+         
+        console.log(resultado)
+
+        function criarProduto (nome, preco) {
+            const produto = {
+                nome, //nome : nome
+                preco, 
+                estoque: 2
+            }
+            return produto
+        }
+
+        console.lg(criarProduto("Notebook Acer Aspire 3", 1500))
+
+        function areaRetangular(base, altura) {
+            return base * altura
+        }
+
+        function areaQuadrada(lado) {
+            return areaRetangular(lado, lado)
+        }
+
+        console.log(areaRetangular)
+        console.log(areaQuadrada)
+
+
     </script>
     
 </body>
