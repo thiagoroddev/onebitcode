@@ -18,6 +18,7 @@
     </h1>
 
     <script>
+
         let opcao = ""
 
         do {
@@ -29,13 +30,25 @@
                     let base = prompt("Digite o valor da base")
                     let altura = prompt("Digite o valor da altura")
 
-                    function calcularAreaTriangulo() {
+                    function calcularAreaTriangulo(base, altura) {
                         let areaTriangulo = base * altura / 2
                         return areaTriangulo
                     }
+                    
+                    alert("Área do triângulo: " + calcularAreaTriangulo(base, altura))
+
                     break
                     
                 case "2":
+                    base = prompt("Digite o valor da base")
+                    altura = prompt("Digite o valor da altura")
+
+                    function calcularAreaRetangulo(base, altura) {
+                        let areaRetangulo = base * altura
+                        return areaRetangulo
+                    }
+                    alert("Área do retângulo: " + calcularAreaRetangulo(base, altura))
+
                     break
                  case "3": 
                     break
@@ -46,7 +59,7 @@
                  case "3": 
                     break
 
-                default
+                default:
             }
 
         } while (opcao !== "3")
