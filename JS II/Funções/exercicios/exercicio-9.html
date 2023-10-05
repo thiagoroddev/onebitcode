@@ -27,42 +27,72 @@
 
             switch (opcao) {
                 case "1":
-                    let base = prompt("Digite o valor da base")
-                    let altura = prompt("Digite o valor da altura")
+                    let baseTriangulo = prompt("Digite o valor da base")
+                    let alturaTriangulo = prompt("Digite o valor da altura")
 
-                    function calcularAreaTriangulo(base, altura) {
-                        let areaTriangulo = base * altura / 2
+                    function calcularAreaTriangulo(baseTriangulo, alturaTriangulo) {
+                        let areaTriangulo = baseTriangulo * alturaTriangulo / 2
                         return areaTriangulo
                     }
                     
-                    alert("Área do triângulo: " + calcularAreaTriangulo(base, altura))
-
+                    alert("Área do triângulo: " + calcularAreaTriangulo(baseTriangulo, alturaTriangulo))
                     break
                     
                 case "2":
-                    base = prompt("Digite o valor da base")
-                    altura = prompt("Digite o valor da altura")
+                    let baseRetangulo = prompt("Digite o valor da base")
+                    let alturaRetangulo = prompt("Digite o valor da altura")
 
-                    function calcularAreaRetangulo(base, altura) {
-                        let areaRetangulo = base * altura
+                    function calcularAreaRetangulo(baseRetangulo, alturaRetangulo) {
+                        let areaRetangulo = baseRetangulo * alturaRetangulo
                         return areaRetangulo
                     }
-                    alert("Área do retângulo: " + calcularAreaRetangulo(base, altura))
 
+                    alert("Área do retângulo: " + calcularAreaRetangulo(baseRetangulo, alturaRetangulo))
                     break
+
                  case "3": 
+                    let ladoQuadrado = prompt("Digite o valor dos lados")
+
+                    function calcularAreaQuadrado (ladoQuadrado) {
+                        areaQuadrado = ladoQuadrado * ladoQuadrado
+                        return areaQuadrado
+                    }
+
+                    alert("A area do quadrado é: " + calcularAreaQuadrado(ladoQuadrado))
                     break
-                 case "3": 
+
+                 case "4":
+                    let ladoMenorTrapezio = prompt("Digite o valor do lado menor") 
+                    let ladoMaiorTrapézio = prompt("Digite o valor do lado maior")
+
+                    function calcularAreaTrapezio (ladoMenorTrapezio, ladoMaiorTrapézio) {
+                        let areaTrapezio = ladoMenorTrapezio * ladoMaiorTrapézio
+                        return areaTrapezio
+                    }
+
+                    alert("A área do trapézio é: " + calcularAreaTrapezio(ladoMenorTrapezio, ladoMaiorTrapézio))
                     break
-                 case "3": 
+
+                 case "5":
+                    let raio = prompt("Digite o valor do raio")
+                    
+                    function calcularAreaCirculo (raio) {
+                        let areaCirculo = raio * raio * 3.14
+                        return areaCirculo
+                    }
+
+                    alert("A área do círculo é: " + calcularAreaCirculo(raio))
                     break
-                 case "3": 
+
+                 case "6":
+                    alert("Encerrando programa") 
                     break
 
                 default:
+                    alert ("Error")
             }
 
-        } while (opcao !== "3")
+        } while (opcao !== "6")
 
 
     </script>
