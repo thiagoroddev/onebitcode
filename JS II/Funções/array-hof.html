@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const characters = [
+            { level: 42, name: "Thrall", race: "Orc", class: "Xamã"},
+            { level: 28, name: "Garrosh", race:"Orc", class: "Soldier"},
+            { level: 35, name: "Varok", race: "Orc", class: "Soldier"},
+            { level: 35, name: "Uther", race: "Human", class: "Paladin"},
+            { level: 26, name: "Jaina", race: "Human", class: "Maga"},
+            { level: 39, name: "Tyrande", race: "Elf", class: "Guerreiro"},
+            { level: 29, name: "Muradin", race: "Elf", class: "Soldier"},
+        ]
+
+
+    //Map (com)
+
+    //const names = []
+    
+    //for (let i = 0; i < characters.length; i ++) {
+      //  names.push(characters[i].name)
+    //}
+
+    //console.log(names)
+
+    const names = characters.map(function (character) {
+        return character.name
+    })
+
+    console.log(names)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calculate(a, b, operation) {
+            console.log("Performing on operation")
+            const result = operation(a, b) // add (3, 5)
+            return result
+        }
+
+        function add(x, y) {
+            console.log("Performing a sum")
+            return x + y  
+        }
+
+        console.log(calculate(3, 5, add))
+
+        console.log(calculate(8, 4, function (x, y) {
+            console.log("Performing a subtraction")
+            return x - y
+        }))
+
+        function displayElement(element, index, array) {
+            console.log(
+                element,
+                index,
+                array
+            )
+        }
+
+        const list = ["rice", "bean", "noodle", "chicken", "banana" ]
+
+       // for (let i = 0; i < list.length; i++) {
+        //    displayElement(list[i], i)
+       // }
+
+       // list.forEach(displayElement)
+        
+        list.forEach(function(elemento, indice, array) {
+            console.log({
+            elemento,
+                indice,
+                array}
+            )
+        })
+    </script>
+</body>
+</html>
