@@ -28,11 +28,39 @@
 
     //console.log(names)
 
-    const names = characters.map(function (character) {
-        return character.name
-    })
+  //  const names = characters.map(function (character) {
+   //     return character.name
+   // })
 
-    console.log(names)
+  //  console.log(names)
+
+// ==========================================================================
+    // Filter (sem filter)
+
+  //  const orcs = []
+
+
+
+//   for (let i = 0; i < characters.length; i++) {
+//    if (characters[i].race === "Orc") {
+//             orcs.push(characters[i])
+//        }
+        
+//     }
+
+ //   console.log(orcs)
+
+ // Filter method
+
+ const orcs = characters.filter(function (personagem){
+    return personagem.race === "Orc"
+ } )
+
+ console.log(orcs)
+
+
+
+
 
     </script>
 </body>
