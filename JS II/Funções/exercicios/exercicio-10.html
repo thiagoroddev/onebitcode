@@ -24,5 +24,41 @@
         - A opção de inscrever um candidato em uma vaga deve pedir o nome do candidato, o índice da vaga e então uma confirmação exibindo as informaçãoes da vaga antes de salvar o candidato na vaga. <br>
         - A opção de excluir uma vaga deve pedir o índice da vaga, mostrar suas informações e pedir que o usuário confirme a exclusão da vaga antes de realmente excluí-la.
     </h5>
+
+    <script>
+        
+    let vagas = [
+                {nomeVaga: "", descrição: "", inscritos:""},
+
+            ]
+
+    function criarVagas() {
+        let nomeVaga = vagas.nomeVaga.prompt("Nome da vaga")
+        let descricaoVaga = vagas.descricaoVaga.prompt("Descrição da vaga")
+        vagas.inscritos ++
+    }        
+        
+       function mostrarMenu(){
+            let menu = prompt("Escolha uma opção: \n" +
+                    "1. Listar vagas disponíveis \n" +
+                    "2. Criar uma nova vaga \n" +
+                    "3. Visualiazar vaga \n" + 
+                    "4. Inscrever novo candidato \n" +
+                    "5. Excluir uma vaga \n" +
+                    "6. Sair"
+            )
+
+            return menu 
+        } 
+
+            
+        
+
+        console.log(criarVagas())
+        console.log(criarVagas)
+             
+       
+
+    </script>
 </body>
 </html>
