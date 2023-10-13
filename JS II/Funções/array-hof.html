@@ -18,7 +18,7 @@
         ]
 
 
-    //Map (com)
+    //Map (com) ====================================================================
 
     //const names = []
     
@@ -50,13 +50,46 @@
 
  //   console.log(orcs)
 
- // Filter method
+ // Filter method ================================================
 
  const orcs = characters.filter(function (personagem){
     return personagem.race === "Orc"
  } )
 
  console.log(orcs)
+
+
+// Reduce =============================================
+
+const nivelTotal = characters.reduce(function (valorAcumulado, personagem, i, a) {
+    return valorAcumulado + personagem.level
+}, 0 )
+
+
+console.log(nivelTotal)
+
+const racas = characters.reduce(function (valorAcumulado, personagem) {
+    if (valorAcumulado[personagem.race]) {
+        valorAcumulado[personagem.race].push(personagem)
+    } else {
+        valorAcumulado[personagem.race] = [personagem]
+    }
+
+    return valorAcumulado
+}, {})
+
+console.log(racas)
+
+
+// Sort  =======================================
+
+characters.sort(function(a, b){
+    return a.level - b.level
+} ) 
+    
+console.log(characters)
+
+
 
 
 
