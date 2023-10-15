@@ -27,29 +27,72 @@
 
     <script>
         
-    let vagas = [
-                {nomeVaga: "", descrição: "", inscritos:""},
+    let vagas = []
 
-            ]
+    function listarVagas () {
+        const vagasEmTexto = vagas.reduce(function(textoFinal, vaga, indice) {
+            textoFinal += indice + ". "
+            textoFinal += vaga.nome
+            textoFinal += " (" + vaga.candidatos.length + "candidatos)\n"
+            return textoFinal
+        }, "")
 
-    function criarVagas() {
-        let nomeVaga = vagas.nomeVaga.prompt("Nome da vaga")
-        let descricaoVaga = vagas.descricaoVaga.prompt("Descrição da vaga")
-        vagas.inscritos ++
-    }        
+        alert(vagasEmTexto)
+    }
+    
+    
+    function novaVaga() {
+        const nome = prompt("Informe o nome da vaga")
+        const descricao = prompt("Informe uma descrição da vaga")
+        const dataLimite = prompt("informe uma data limite")
+
+        const confirmando = confirm(
+            "Deseja confirmar essas informações?\n" +
+            "Nome: " + nome + "\n Descrição: " + descricao + "\n Data limite; " + dataLimite 
+        )
         
-       function mostrarMenu(){
-            let menu = prompt("Escolha uma opção: \n" +
-                    "1. Listar vagas disponíveis \n" +
-                    "2. Criar uma nova vaga \n" +
-                    "3. Visualiazar vaga \n" + 
-                    "4. Inscrever novo candidato \n" +
-                    "5. Excluir uma vaga \n" +
-                    "6. Sair"
-            )
+        if (confirmando) {
+            let novaVaga = {nome, descricao, dataLimite, candidatos: []}
+            vagas.push(novaVaga)
+            alert("Vaga criada")
+        }
+    }
 
-            return menu 
-        } 
+    function exibirVaga () {
+        const indice = prompt("Informe o índice da vaga que deseja exibir:")
+        const vaga = vagas[indice]
+        
+        const candidatosEmTexto = vaga.candidatos.reduce(function(textoFinal, candidato){
+            return textoFinal + "\n -" + candidato
+        }, "")
+
+        alert(
+            "Vaga n " + indice + 
+            "\n Nome: " + vaga.nome +
+            "\n Descrição: " + vaga.descricao +
+            "\n Data limite: " + vaga.dataLimite +
+            "\n Quantidade de candidatos: " + vaga.candidatos.length +
+            " \n Candidatos inscritos: " + candidatosEmTexto
+        )
+    }
+
+
+    function inscreverCandidato() {
+        
+    }
+        
+    //    function mostrarMenu(){
+    //         let menu = prompt("Escolha uma opção: \n" +
+    //                 "1. Listar vagas disponíveis \n" +
+    //                 "2. Criar uma nova vaga \n" +
+    //                 "3. Visualiazar vaga \n" + 
+    //                 "4. Inscrever novo candidato \n" +
+    //                 "5. Excluir uma vaga \n" +
+    //                 "6. Sair"
+    //         )
+
+    //         return menu 
+    //     } 
 
             
         
