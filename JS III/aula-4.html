@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="aula4.js"></script>
 </head>
 <body>
     <h1>Obtendo Elementos HTML do DOM</h1>
 
-    <ul>
+    <ul id="contact-list">
         <li>
             <label for="contact1">Contato 1</label>
             <input type="text" id="contact1" name="contact1" class="contact-input">
@@ -18,12 +19,26 @@
             <input type="text" id="contact2" name="contact2" class="contact-input">
         </li>
         <li>
-            <label for="contact3">Contato 3</label>S
+            <label for="contact3">Contato 3</label>
             <input type="text" id="contact3" name="contact3" class="contact-input">
         </li>
         <button onclick="show()">
             Exibir
         </button>
     </ul>
+    <script>
+        function show () {
+            const contact01 = document.getElementById("contact1")
+            console.log(contact01)
+
+            const contato02 = document.getElementById("contact2")
+            console.log(contato02)
+
+            const contact03 = document.getElementsByName("contact3")
+            console.log(contact03)
+        }
+    </script>
+
+    
 </body>
 </html>
