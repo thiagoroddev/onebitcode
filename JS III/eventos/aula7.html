@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Praticando a Manipulação do DOM</h1>
+    <hr>
+    <h2>Miha Agenda</h2>
+    <button onclick="add()">Novo Contato</button>
+    <button onclick="remove()">Remover contato</button>
+    <section id="lista"></section>
+    
+    <script>
+        function add() {
+            const contactSection = document.getElementById('lista')
+            const hh3 = document.createElement('h3')
+            hh3.innerText = "Contato"
+
+            const ull = document.createElement('ul')
+            
+            const li = document.createElement('li')
+            li.innerText = "Nome: "
+
+            const nameInput = document.createElement('input')
+            nameInput.type = 'text'
+            nameInput.name = 'fullname'
+
+            li.appendChild(nameInput)
+            ull.appendChild(li)
+
+            const phoneLi = document.createElement('li')
+            phoneLi.innerText = "Telefone: "
+
+            const phoneInput = document.createElement('input')
+            phoneInput.type = 'text'
+            phoneInput.name = 'phone'
+
+            phoneLi.appendChild(phoneInput)
+            ull.appendChild(phoneLi)
+
+            contactSection.append(hh3, ull)
+
+            const labelLi = document.createElement('li')
+            labelLi.innerHTML = '<label for="address">Endereço: </label>'
+            const addressInput = document.createElement('input')
+            addressInput.type = 'text'
+            addressInput.name = 'address'
+            addressInput.id = 'address'
+            labelLi.appendChild(addressInput)
+            ull.appendChild(labelLi)
+
+
+        }
+
+        function remove() {
+            const contactSection = document.getElementById('lista')
+
+            const titles = document.getElementsByTagName('h3')
+            const contacts = document.getElementsByName('ul')
+
+            contactSection.removeChild(titles[titles.length -1])
+            contactSection.removeChild(contacts[contacts.length -1])
+        }
+
+        oi
+
+
+    </script>
+</body>
+</html>
