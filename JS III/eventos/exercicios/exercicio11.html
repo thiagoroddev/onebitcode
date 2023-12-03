@@ -6,10 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Construa uma página web que permita montar a escalação de um time de jogadores. Nele deverá ser possível:
+    <h6>Construa uma página web que permita montar a escalação de um time de jogadores. Nele deverá ser possível:
 
-        -Escalar um jogadore
-            -Informar a posição do jogador a ser escalado
+        -Escalar um jogador e:
+            - Informar a posição do jogador a ser escalado
             - Informar o nome do jogador. 
             - Informar o número da camisa do jogador.
             - Ter um botão "Escalar" que pergunta ao usuário se ele deseja confirmar a escalação daquele jogador e então insere as informações em uma lista na página.
@@ -20,9 +20,75 @@
             - Após o jogador ser removido o campo de texto deve ser limpo.
 
             Dica: lembrando que é possível acessar o texto de um input através da propriedade value.
-    </h1>
+    </h6>
 
-    oi
+    <h1>Escalação do time</h1>
+    <p>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+    </p>
+    <p>
+        <label for="numero">Número:</label>
+        <input type="text" name="numero" id="numero">
+    </p>
+    <p>
+        <label for="posicao">Posição:</label>
+        <input type="text" name="posicao" id="posicao">
+    </p>
+    <button onclick="addJogador()">Escalar jogador</button>
+
+    <h2>Remover Jogador</h2>
+    
+    <label for="removerNumero">Número do Jogador</label>
+    <input type="text" id="removerNumero">
+
+    <button onclick="removerJogador()">Remover jogador</button>
+
+    <ul id="lista-time"></ul>
+
+    <script>
+
+        
+        
+
+        function addJogador() {
+            let nomeJogador = document.getElementById('nome').value
+            let numeroJogador = document.getElementById('numero').value
+            let posicaoJogador = document.getElementById('posicao').value
+
+            const confirma = confirm("Deseja escalar o jogador " + nomeJogador + " Número " + numeroJogador + " na posição de " + posicaoJogador + " ?")
+
+            if (confirma) {
+                const lista = document.getElementById('lista-time')
+                const jogadores = document.createElement('li')
+                jogadores.id = "player-" + numeroJogador
+                jogadores.innerText = posicaoJogador + " : " + nomeJogador + " (" + numeroJogador + ")"
+                lista.appendChild(jogadores)
+            }
+
+            document.getElementById('nome').value = ''
+            document.getElementById('numero').value = ''
+            document.getElementById('posicao').value = ''
+
+           
+
+        }
+
+        function removerJogador () {
+            const numeroJogDeletar = document.getElementById('removerNumero').value
+            const jogadorDeletar = document.getElementById('player-' + numeroJogDeletar)
+        
+            const confirmacao = confirm("Deseja remover o jogador " + removerNumero.value + " ?" )
+            
+            if (confirmacao)
+            document.getElementById('lista-time').removeChild(jogadorDeletar)
+            document.getElementById('removerNumero').value = ''
+        
+        }
+
+        
+
+    </script>
     
 </body>
 </html>
