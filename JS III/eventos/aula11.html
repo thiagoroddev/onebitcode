@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Recadastre sua senha</h1>
+
+    <label for="nome">Nome</label>
+    <input type="text" id="nome">
+
+    <label for="senha">Senha</label>
+    <input type="password" id="senha">
+
+    <label for="confirmSenha">Confirme a senha</label>
+    <input type="password" id="confirmSenha">
+
+    <button id="registro">Cadastrar senha</button>
+    <button onclick="removeListener()" >Remover evento</button>
+
+    <script defer>
+
+        function registrar(ev) {
+            console.log(ev)
+            const secaoElemento = ev.currentTarget.parentNode
+            const username = secaoElemento.children.nome.value
+            const senha = secaoElemento.children.senha.value
+            const confirmSenha = secaoElemento.children.confirmSenha.value
+            
+            if (senha === confirmSenha) {
+                alert("Senha cadastrada")
+                } else {
+                    alert("Senhas diferentes!")
+                }
+            }   
+        
+
+        const button = document.getElementById('registro')
+
+        button.addEventListener('click', registrar) 
+
+        function removeListener () {
+            button.removeEventListener('click', registrar)
+            alert("Evento removido")
+
+        }
+        
+
+        button.addEventListener('mouseover', function (ev) {
+            console.log(ev.currentTarget)
+        })
+            
+
+
+    </script>
+    
+</body>
+</html>
