@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Recadastre sua senha</h1>
+
+    <label for="nome">Nome</label>
+    <input type="text" id="nome">
+
+    <label for="senha">Senha</label>
+    <input type="password" id="senha">
+
+    <label for="confirmSenha">Confirme a senha</label>
+    <input type="password" id="confirmSenha">
+
+    <button onclick="registrar(this.parentNode)">Cadastrar senha</button>
+    
+    <script>
+        function registrar(element) {
+            const nome = element.children.nome.value
+            const senha = element.children.senha.value
+            const confirmSenha = element.children.confirmSenha.value
+
+            console.log({nome, senha, confirmSenha})
+
+            if (senha === confirmSenha) {
+                alert("Usuário " + nome + " registrado")
+            } else {
+                alert("Senhas diferentes!")
+            }
+            
+        }
+
+    </script>
+</body>
+</html>
