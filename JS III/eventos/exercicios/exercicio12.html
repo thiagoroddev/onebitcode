@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Construa uma página web que permita cadastrar desenvolvedores, suas tecnologias e tempos de experiência.
+    - A página deve ter um input para o nome completo do desenvolvedor e um botão para adicionar uma nova tecnologia.
+    
+    - Ao clicar no botão um evento deve ser disparado criando no formulário uma nova linha de inputs contendo:
+        - um campo de texto para o nome da tecnologia;
+        - um grupo de botões tipo "radio" com opções de tempo de experiência (por exemplo, "0-2 anos", "3-4 anos" e "5+ anos");
+        - um botão de remover que deve excluir essa linha;
+    
+    - O formulário também deve ter um botão de cadastrar que salva as informações do dev em um array e limpa o formulário. Para testar o funcionamento você pode utilizar um simples console.log()
+
+    Para esse exercício você deve utilizar apenas eventos adicionados via javascript e a página deve funcionar sem acionar um recarregamento.-->
+
+    <form action="">
+
+        <input type="button" value="Cadastrar Novo Dev" id="cadastrar">
+        <label for=""></label>
+        
+    </form>
+
+
+    <script>
+        const botaoCadastrar = document.getElementById('cadastrar')
+        
+        botaoCadastrar.addEventListener('click', function(ev){ 
+            const formulario = ev.currentTarget.parentNode
+
+            const textNome = document.createElement('input')
+            textNome.id = "nome"
+            textNome.name = "nome"
+            
+            const labelNome = document.createElement('label')
+            labelNome.htmlFor = "nome"
+            labelNome.innerText = "Nome: "
+
+            formulario.appendChild(labelNome)
+            formulario.appendChild(textNome)
+            
+            const tecnologia = document.createElement('input')
+            tecnologia.id = "tecnologia"
+            tecnologia.name = "tecnologia"
+            const labelTecnologia = document.createElement('label')
+            labelTecnologia.htmlFor = "tecnologia"
+            labelTecnologia.innerText = "Tecnologia: "
+
+            formulario.appendChild(labelTecnologia)
+            formulario.appendChild(tecnologia)
+
+            const experiencia1 = document.createElement('input')
+            experiencia1.type = "radio"
+            experiencia1.id = "radio1"
+            experiencia1.name = "experiencia"
+
+            const labelExperiencia1 = document.createElement('label')
+            labelExperiencia1.htmlFor = "radio1"
+            labelExperiencia1.innerText = "Menos de 1 ano"
+
+            formulario.appendChild(labelExperiencia1)
+            formulario.appendChild(experiencia1)
+
+            const experiencia2 = document.createElement('input')
+            experiencia2.type = "radio"
+            experiencia2.id = "radio2"
+            experiencia2.name = "experiencia"
+
+            const labelExperiencia2 = document.createElement('label')
+            labelExperiencia2.htmlFor = "radio2"
+            labelExperiencia2.innerText = "Entre 1 e 2 anos"
+
+            formulario.appendChild(labelExperiencia2)
+            formulario.appendChild(experiencia2)
+
+            const experiencia3 = document.createElement('input')
+            experiencia3.type = "radio"
+            experiencia3.id = "radio3"
+            experiencia3.name = "experiencia"
+
+            const labelExperiencia3 = document.createElement('label')
+            labelExperiencia3.htmlFor = "radio2"
+            labelExperiencia3.innerText = "Mais de 2 anos"
+
+            formulario.appendChild(labelExperiencia3)
+            formulario.appendChild(experiencia3)
+
+            const botaoConfirmar = document.createElement('input')
+            botaoConfirmar.type = "button"
+            botaoConfirmar.id = "botao-confirmar"
+            botaoConfirmar.value = "Confirmar cadastro"
+
+            formulario.appendChild(botaoConfirmar)
+
+
+            botaoConfirmar.addEventListener('click', function (ev) {
+               const confirmacao = confirm('Deseja cadastrar o ' + textNome.value + ' na tecnologia ' + tecnologia.value)
+    
+                if (confirmacao) {
+                    alert('Cadastro feito com sucesso')
+                    let lista = []
+                    lista.push({nome: textNome.value, tecnologia: tecnologia.value})
+                    console.log(lista)
+
+                    const removerNome = document.getElementById('nome').value = ''
+                    const removerTecnologia = document.getElementById('tecnologia').value = 'sssssssssssssssssssssssssssss'                    
+
+        
+                } else {
+                    alert('Erro')
+                }
+
+                
+            })
+        
+        })
+        
+        
+        
+
+
+    </script>
+</body>
+</html>
