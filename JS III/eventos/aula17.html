@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .claro { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+        .escuro { background-color: black; color: white; }
+    </style>
+</head>
+<body class="is-light">
+    <h1>Manipulando Estilos com Javascript</h1>
+
+    <button id="claro">Tema Claro</button>
+    <button id="escuro">Tema Escuro</button>
+    <button id="alternaTema">Alternar Tema</button>
+
+    <h2>Título da Página</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quos minima soluta autem earum obcaecati, numquam nulla, cum non neque suscipit sed placeat amet nostrum assumenda libero? Iusto, accusamus aut?</p>
+
+    <script defer>
+        function temaClaro() {
+            document.body.style.backgroundColor = 'rgb(255, 255, 255)';
+            document.body.style.color = 'rgb(0, 0, 0)';
+        }
+
+        function temaEscuro() {
+            document.body.style.backgroundColor = 'rgb(0, 0, 0)';
+            document.body.style.color = 'rgb(255, 255, 255)';
+        }
+
+        function alternarTema () {
+            document.body.classList.toggle('is-light')
+            document.body.classList.toggle('is-dark')
+        }
+
+        document.getElementById('claro').addEventListener('click', temaClaro)
+        document.getElementById('escuro').addEventListener('click', temaEscuro)
+        document.getElementById('alternarTema').addEventListener('click', alternarTema)
+
+
+    </script>
+    
+</body>
+</html>

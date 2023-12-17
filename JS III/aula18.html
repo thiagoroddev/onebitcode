@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Manipulando Atributos Com Javascript</h1>
+    <input type="text" name="input" id="input" data-qualquer="coisa">
+    <button id="mudarValor">Mudar Valor</button>
+    <button id="mudarTipo">Mudar Tipo</button>
+    <button id="mudarPlaceholder">Mudar Placeholder</button>
+    <button id="desab-habil">Desabiliar/Habilitar</button>
+    <button id="mostrarDados">Mostrar Dados</button>
+    
+    <script>
+
+
+        const input = document.getElementById('input')
+
+        document.getElementById('mudarValor').addEventListener('click', function () {
+        input.value = 'Olá, mundo!'
+
+        console.log(input.value)
+        console.log(input.getAttribute('value'))
+        })
+
+
+        document.getElementById('mudarTipo').addEventListener('click', function(){
+            input.type = input.type !== 'radio' ? 'radio' : 'text'
+        })
+
+        document.getElementById('mudarPlaceholder').addEventListener('click', function(){
+            input.placeholder = input.value == "" ? "Oi" : ""
+        })
+
+        document.getElementById('desab-habil').addEventListener('click', function(){
+            input.setAttribute('disabled', !input.disabled)
+        })
+
+        document.getElementById('mostrarDados').addEventListener('click', function(){
+            const data = input.dataset.qualquer 
+            console.log(data)
+            input.dataset.qualquer = "coiso"
+            console.log('Agora é ' + input.dataset.qualquer)
+        })
+
+
+
+    </script>
+
+</body>
+
+
+
+
+</html>
