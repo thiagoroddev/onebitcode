@@ -1,0 +1,95 @@
+:root {
+    --cor-primaria: rgb(0, 0, 0);
+    --cor-secundaria: rgb(24, 193, 223)
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#botoes {
+    background-color: var(--cor-primaria);
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 50px);
+    gap: 2px;
+    border: 15px solid var(--cor-primaria);
+    border-radius: 10px;
+    grid-template-areas: ;
+}
+
+#visor {
+    height: 100px;
+    width: 200px;
+    border: 15px solid var(--cor-primaria);
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+    font-size: 1.3em;
+    width: 50px;
+}
+
+
+input[data-tecla="*"] {
+    background-color: var(--cor-secundaria);
+    grid-column: 4;
+    grid-row: 1;
+}
+
+input[data-tecla="/"] {
+    background-color: var(--cor-secundaria);
+    grid-column: 4;
+    grid-row: 2;
+}
+input[data-tecla="+"] {
+    background-color: var(--cor-secundaria);
+    grid-column: 4;
+    grid-row: 3;
+}
+input[data-tecla="-"] {
+    background-color: var(--cor-secundaria);
+    grid-column: 4;
+    grid-row: 4;
+}
+input[data-tecla="="] {
+    background-color: var(--cor-secundaria);
+    grid-column: 4;
+    grid-row: 5;
+}
+input[data-tecla="AC"] {
+    background-color: var(--cor-secundaria);
+    grid-column: 1;
+    grid-row: 1;
+}
+input[data-tecla="DEL"] {
+    background-color: var(--cor-secundaria);
+    grid-column: 3;
+    grid-row: 5;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 49px;
+}
+input[data-tecla="("] {
+    background-color: var(--cor-secundaria);
+    grid-column: 2;
+    grid-row: 1;
+}
+input[data-tecla=")"] {
+    background-color: var(--cor-secundaria);
+    grid-column: 3;
+    grid-row: 1;
+}
+input[data-tecla="."] {
+    background-color: var(--cor-secundaria);
+    grid-column: 2;
+    grid-row: 5;
+}
+
+
