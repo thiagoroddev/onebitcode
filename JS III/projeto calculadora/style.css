@@ -20,15 +20,23 @@ body {
     gap: 2px;
     border: 15px solid var(--cor-primaria);
     border-radius: 10px;
-    grid-template-areas: ;
+    
 }
 
-#visor {
+input#visor {
     height: 100px;
     width: 200px;
     border: 15px solid var(--cor-primaria);
     border-radius: 10px;
+    font-size: 2em;
+    word-wrap: break-word;
+    overflow-wrap:break-word ;
+    background-color: rgba(0, 255, 255, 0.1);
+    
 }
+
+
+/* Botões --------------------------------------------------------------*/
 
 .btn {
     border-radius: 5px;
@@ -36,6 +44,24 @@ body {
     width: 50px;
 }
 
+button[data-tecla="DEL"]  {
+    background-color: var(--cor-secundaria);
+    grid-column: 3;
+    grid-row: 5;
+    box-sizing: border-box;
+    width: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*img do delete(backspace)*/
+#delete {
+    width : 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
 input[data-tecla="*"] {
     background-color: var(--cor-secundaria);
@@ -48,44 +74,44 @@ input[data-tecla="/"] {
     grid-column: 4;
     grid-row: 2;
 }
+
 input[data-tecla="+"] {
     background-color: var(--cor-secundaria);
     grid-column: 4;
     grid-row: 3;
 }
+
 input[data-tecla="-"] {
     background-color: var(--cor-secundaria);
     grid-column: 4;
     grid-row: 4;
 }
+
 input[data-tecla="="] {
     background-color: var(--cor-secundaria);
     grid-column: 4;
     grid-row: 5;
 }
+
 input[data-tecla="AC"] {
     background-color: var(--cor-secundaria);
     grid-column: 1;
     grid-row: 1;
 }
-input[data-tecla="DEL"] {
-    background-color: var(--cor-secundaria);
-    grid-column: 3;
-    grid-row: 5;
-    box-sizing: border-box;
-    padding: 10px;
-    width: 49px;
-}
+
+
 input[data-tecla="("] {
     background-color: var(--cor-secundaria);
     grid-column: 2;
     grid-row: 1;
 }
+
 input[data-tecla=")"] {
     background-color: var(--cor-secundaria);
     grid-column: 3;
     grid-row: 1;
 }
+
 input[data-tecla="."] {
     background-color: var(--cor-secundaria);
     grid-column: 2;

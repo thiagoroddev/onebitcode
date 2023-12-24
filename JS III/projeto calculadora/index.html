@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js" defer></script>
 </head>
 <body>
     <h1>Calculadora</h1>    
@@ -22,14 +23,15 @@
             <input type="button" value="3" data-tecla="3" class="btn"> 
             <input type="button" value="0" data-tecla="0" class="btn"> 
             <input type="button" value="." data-tecla="." class="btn"> 
-            <input type="button" value="(" data-tecla="(" class="btn"> 
-            <input type="button" value=")" data-tecla=")" class="btn"> 
+            <input type="button" value=" (" data-tecla="(" class="btn"> 
+            <input type="button" value=") " data-tecla=")" class="btn"> 
             <input type="button" value="+" data-tecla="+" class="btn"> 
             <input type="button" value="-" data-tecla="-" class="btn"> 
             <input type="button" value="/" data-tecla="/" class="btn"> 
             <input type="button" value="*" data-tecla="*" class="btn"> 
-            <input type="button" value="=" data-tecla="=" class="btn">
-            <input type="image" src="delete.png" alt="" data-tecla="DEL" class="btn"> 
+            <input type="button" value="=" data-tecla="=" class="btn" onclick="equal()">
+            <button data-tecla="DEL" class="btn"><img id="delete" src="delete.png" alt=""></button>
+            <!-- <input type="image" src="delete.png" alt="" data-tecla="DEL" class="btn"> --> 
            <!--<input type="button" value="DEL" data-tecla="DEL" class="btn">-->  
             <input type="button" value="AC" data-tecla="AC" class="btn"> 
         </section>
