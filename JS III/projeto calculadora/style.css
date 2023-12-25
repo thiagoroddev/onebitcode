@@ -7,10 +7,11 @@
     --cor-textoVisor:rgba(8, 0, 0, 0.656);
     --cor-borda:rgb(49, 46, 46);
     --cor-btn: rgba(225, 231, 232, 0.934);
+    --cor-erro: rgba(245, 8, 8, 0.516);
 }
 
 body {
-
+    
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -33,12 +34,13 @@ body {
 }
 
 #visor {
-    display: flex;
-    color: var(--cor-textoVisor);
-    font-weight: bolder;
-    text-align: end;
+    margin-bottom: 2px;
+    text-align: center;
+    vertical-align: bottom;
     width: 200px;
     height: 110px;
+    color: var(--cor-textoVisor);
+    font-weight: bolder;
     resize: none; /* impede o redimensionamento da area de texto*/
     border: 15px solid var(--cor-borda);
     border-radius: 10px;
@@ -58,15 +60,18 @@ body {
 
 
 #copy {
+    margin: 3px;
     flex-grow: 1;
     padding: 10px;
     background-color: var(--cor-esp);
     border-radius: 5px;
     transition: background-color 0.5s;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.54);
+    border: none;
 }
 
 #tema {
+    margin: 3px;
     max-width: 99px;
     flex-grow: 1;
     padding: 10px;
@@ -74,6 +79,7 @@ body {
     border-radius: 5px;
     transition: background-color 0.5s;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.54);
+    border: none;
 }
 
 #tema:hover, #copy:hover {

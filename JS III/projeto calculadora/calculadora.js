@@ -50,11 +50,23 @@ document.querySelector('[data-tecla=AC').addEventListener('click', function(){
 
 // torna o botão '=' da tela funcional
 function equal() {
-   let result = eval(visor.value)
-   visor.value = result
-   
-}
 
+   try { // Avalia o código que pode gerar uma exceção
+
+      let result = eval(visor.value)
+      visor.value = result
+
+   } catch (error){// Bloco executado se uma exceção for lançada, 'error' contém informações sobre a exceção
+      
+      visor.style.color = 'rgba(245, 8, 8, 0.516)'
+      visor.value += '\nError'
+
+      setTimeout (function() { // remove o alerta de erro
+         visor.style.color = 'rgba(8, 0, 0, 0.656)'
+         visor.value = visor.value.replace(/\nError/, "");
+      },100)
+   }
+}
 
 // alterna o tema entre claro e escuro
 function mudarTema() {
@@ -87,7 +99,8 @@ function copiar(ev) {
       botaoCopiar.innerText = 'Copiado'
       botaoCopiar.style.color = 'white'
       botaoCopiar.style.fontWeight = 'bolder'
-      
+      botaoCopiar.style.border = '1px solid rgba(225, 231, 232, 0.934)'
+      navigator.clipboard.writeText(visor.value)
    } 
 
    // reseta o innerText para o estado original após 3 segundos
@@ -95,6 +108,7 @@ function copiar(ev) {
       botaoCopiar.innerText = 'Copiar Resultado';
       botaoCopiar.style.color = 'black'
       botaoCopiar.style.fontWeight = 'normal'
+      botaoCopiar.style.border = 'none'
     }, 3000);
 }
      
