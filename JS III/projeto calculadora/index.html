@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <script src="calculadora.js" defer></script>
 </head>
-<body>
-    <h1>Calculadora</h1>    
-    <div id="container">
-        <input type="text" name="visor" id="visor">
+<body data-tema="principal">
+    <div id="calculadora">
+        <!-- <input type="text" name="visor" id="visor"> -->
+        <textarea name="" id="visor" rows="3"></textarea>
         <section id="botoes">
             <input type="button" value="7" data-tecla="7" class="btn"> 
             <input type="button" value="8" data-tecla="8" class="btn"> 
@@ -22,20 +22,26 @@
             <input type="button" value="2" data-tecla="2" class="btn"> 
             <input type="button" value="3" data-tecla="3" class="btn"> 
             <input type="button" value="0" data-tecla="0" class="btn"> 
-            <input type="button" value="." data-tecla="." class="btn"> 
-            <input type="button" value=" (" data-tecla="(" class="btn"> 
-            <input type="button" value=") " data-tecla=")" class="btn"> 
-            <input type="button" value="+" data-tecla="+" class="btn"> 
-            <input type="button" value="-" data-tecla="-" class="btn"> 
-            <input type="button" value="/" data-tecla="/" class="btn"> 
-            <input type="button" value="*" data-tecla="*" class="btn"> 
-            <input type="button" value="=" data-tecla="=" class="btn" onclick="equal()">
-            <button data-tecla="DEL" class="btn"><img id="delete" src="delete.png" alt=""></button>
+            <input type="button" value="." data-tecla="." class="btn esp"> 
+            <input type="button" value=" (" data-tecla="(" class="btn esp"> 
+            <input type="button" value=") " data-tecla=")" class="btn esp"> 
+            <input type="button" value="+" data-tecla="+" class="btn esp"> 
+            <input type="button" value="-" data-tecla="-" class="btn esp"> 
+            <input type="button" value="/" data-tecla="/" class="btn esp"> 
+            <input type="button" value="*" data-tecla="*" class="btn esp"> 
+            <input type="button" value="=" data-tecla="=" class="btn esp" onclick="equal()">
+            <button data-tecla="DEL" class="btn esp"><img id="delete" src="delete.png" alt=""></button>
             <!-- <input type="image" src="delete.png" alt="" data-tecla="DEL" class="btn"> --> 
-           <!--<input type="button" value="DEL" data-tecla="DEL" class="btn">-->  
-            <input type="button" value="AC" data-tecla="AC" class="btn"> 
+            <!--<input type="button" value="DEL" data-tecla="DEL" class="btn">-->  
+            <input type="button" value="AC" data-tecla="AC" class="btn esp"> 
         </section>
+        
+        <div id="outros">
+            <button id="tema" onclick="mudarTema(); clicado(event)">Mudar Tema</button> 
+            <button id="copy" onclick="copiar(event)" >Copiar Resultado</button>
+        </div>   
     </div>
+    
 
     
 </body>

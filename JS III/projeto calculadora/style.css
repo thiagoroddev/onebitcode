@@ -1,15 +1,24 @@
 :root {
+    --cor-fundo: linear-gradient( to right,rgb(24, 193, 223),rgb(105, 130, 129) );
     --cor-primaria: rgb(0, 0, 0);
-    --cor-secundaria: rgb(24, 193, 223)
+    --cor-esp: rgb(24, 193, 223);
+    --cor-terciaria:rgba(0, 255, 255, 0.677);
+    --cor-visor: rgb(105, 130, 129);
+    --cor-textoVisor:rgba(8, 0, 0, 0.656);
+    --cor-borda:rgb(49, 46, 46);
+    --cor-btn: rgba(225, 231, 232, 0.934);
 }
 
 body {
+
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: var(--cor-fundo); 
+    transition: background-color 1s;   
 }
 
 #botoes {
@@ -18,21 +27,66 @@ body {
     grid-template-columns: repeat(4, 50px);
     grid-template-rows: repeat(5, 50px);
     gap: 2px;
-    border: 15px solid var(--cor-primaria);
+    border: 15px solid var(--cor-borda);
     border-radius: 10px;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.54);
+}
+
+#visor {
+    display: flex;
+    color: var(--cor-textoVisor);
+    font-weight: bolder;
+    text-align: end;
+    width: 200px;
+    height: 110px;
+    resize: none; /* impede o redimensionamento da area de texto*/
+    border: 15px solid var(--cor-borda);
+    border-radius: 10px;
+    font-size: 2.4em;
+    background-color: var(--cor-visor);
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.54);
+    outline: none;
     
 }
 
-input#visor {
-    height: 100px;
-    width: 200px;
-    border: 15px solid var(--cor-primaria);
-    border-radius: 10px;
-    font-size: 2em;
-    word-wrap: break-word;
-    overflow-wrap:break-word ;
-    background-color: rgba(0, 255, 255, 0.1);
-    
+#outros {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#copy {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: var(--cor-esp);
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.54);
+}
+
+#tema {
+    max-width: 99px;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: var(--cor-esp);
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.54);
+}
+
+#tema:hover, #copy:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.clicado {
+    color: white;
+
+}
+
+#tema:active, .btn:active, .esp:active {
+    color: white;
 }
 
 
@@ -42,10 +96,19 @@ input#visor {
     border-radius: 5px;
     font-size: 1.3em;
     width: 50px;
+    transition: 0.2s;
+    background-color: var(--cor-btn);
+    transition: background-color 0.5s;;
 }
 
+.btn:hover {
+    text-shadow: 1px 1px 1px #0a000094;
+    font-weight: bolder;
+    background-color: var(--cor-terciaria);
+ }
+
 button[data-tecla="DEL"]  {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-esp);
     grid-column: 3;
     grid-row: 5;
     box-sizing: border-box;
@@ -64,58 +127,53 @@ button[data-tecla="DEL"]  {
 }
 
 input[data-tecla="*"] {
-    background-color: var(--cor-secundaria);
     grid-column: 4;
     grid-row: 1;
 }
 
 input[data-tecla="/"] {
-    background-color: var(--cor-secundaria);
     grid-column: 4;
     grid-row: 2;
 }
 
 input[data-tecla="+"] {
-    background-color: var(--cor-secundaria);
     grid-column: 4;
     grid-row: 3;
 }
 
 input[data-tecla="-"] {
-    background-color: var(--cor-secundaria);
     grid-column: 4;
     grid-row: 4;
 }
 
 input[data-tecla="="] {
-    background-color: var(--cor-secundaria);
     grid-column: 4;
     grid-row: 5;
 }
 
 input[data-tecla="AC"] {
-    background-color: var(--cor-secundaria);
     grid-column: 1;
     grid-row: 1;
 }
 
 
 input[data-tecla="("] {
-    background-color: var(--cor-secundaria);
     grid-column: 2;
     grid-row: 1;
 }
 
 input[data-tecla=")"] {
-    background-color: var(--cor-secundaria);
     grid-column: 3;
     grid-row: 1;
 }
 
 input[data-tecla="."] {
-    background-color: var(--cor-secundaria);
     grid-column: 2;
     grid-row: 5;
+}
+
+.esp {
+    background-color: var(--cor-esp);
 }
 
 

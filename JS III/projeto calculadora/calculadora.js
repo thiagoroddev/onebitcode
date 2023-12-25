@@ -1,4 +1,5 @@
-let container = document.getElementById('container')
+let body = document.querySelector('body')
+let root = document.querySelector(':root')
 let visor = document.getElementById('visor')
 //let botaoTeclado = document.querySelectorAll('.btn')
 let teclasPermetidas = ["(", ")", "/", "*", "-", "+", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0", ".", "%", " "]
@@ -51,6 +52,50 @@ document.querySelector('[data-tecla=AC').addEventListener('click', function(){
 function equal() {
    let result = eval(visor.value)
    visor.value = result
+   
+}
+
+
+// alterna o tema entre claro e escuro
+function mudarTema() {
+   if (body.dataset.tema === "principal") {
+      root.style.setProperty('--cor-fundo', 'rgb(255, 255, 255)')
+      body.dataset.tema = "claro"
+
+   } else if(body.dataset.tema ==="claro") {
+      root.style.setProperty('--cor-fundo', 'rgb(0, 0, 0)')
+      body.dataset.tema = "escuro"
+      
+   } else {
+      root.style.setProperty('--cor-fundo', 'linear-gradient( to right,rgb(24, 193, 223),#698281 )')
+      body.dataset.tema = "principal"
+   }
+}
+
+function clicado(ev) {
+   let botaoTema = ev.currentTarget
+   botaoTema.classList.add('clicado')
+   setTimeout(function() {
+     botaoTema.classList.remove('clicado');
+   }, 100); // Remove a classe 'clicado' após 500 milissegundos (0.5 segundos)
+  }
+
+// copiar o resultado para a área de transferência
+function copiar(ev) {
+   var botaoCopiar = ev.currentTarget
+   if (botaoCopiar.innerText === 'Copiar Resultado') {
+      botaoCopiar.innerText = 'Copiado'
+      botaoCopiar.style.color = 'white'
+      botaoCopiar.style.fontWeight = 'bolder'
+      
+   } 
+
+   // reseta o innerText para o estado original após 3 segundos
+   setTimeout(function() {
+      botaoCopiar.innerText = 'Copiar Resultado';
+      botaoCopiar.style.color = 'black'
+      botaoCopiar.style.fontWeight = 'normal'
+    }, 3000);
 }
      
 
