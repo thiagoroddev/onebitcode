@@ -68,7 +68,7 @@ function equal() {
    }
 }
 
-// alterna o tema entre claro e escuro
+// alterna o tema entre claro, escuro e gradiente
 function mudarTema() {
    if (body.dataset.tema === "principal") {
       root.style.setProperty('--cor-fundo', 'rgb(255, 255, 255)')
@@ -84,6 +84,7 @@ function mudarTema() {
    }
 }
 
+// muda a cor do botão do tema ao ser clicado
 function clicado(ev) {
    let botaoTema = ev.currentTarget
    botaoTema.classList.add('clicado')
