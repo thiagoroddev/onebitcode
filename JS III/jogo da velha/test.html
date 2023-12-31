@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar evento onclick com forEach</title>
+</head>
+<body>
+
+    <!-- Exemplo de elementos de input com a mesma classe -->
+    <input type="text" class="meu-input" value="Elemento 1">
+    <input type="text" class="meu-input" value="Elemento 2">
+    <input type="text" class="meu-input" value="Elemento 3">
+
+    <script>
+        // Obtém a NodeList de elementos pela classe
+        var elementos = document.querySelectorAll('.meu-input');
+
+        // Adiciona um evento onclick a cada elemento usando forEach
+        elementos.forEach(function(elemento) {
+            elemento.addEventListener('click', function() {
+                // Muda o valor do atributo 'value' quando o elemento é clicado
+                elemento.value = "Novo Valor";
+            });
+        });
+    </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar evento onclick com forEach</title>
+</head>
+<body>
+
+    <!-- Exemplo de elementos de input com a mesma classe -->
+    <input type="text" class="meu-input" value="Elemento 1">
+    <input type="text" class="meu-input" value="Elemento 2">
+    <input type="text" class="meu-input" value="Elemento 3">
+
+    <script>
+        // Obtém a NodeList de elementos pela classe
+        var elementos = document.querySelectorAll('.meu-input');
+
+        // Adiciona um evento onclick a cada elemento usando forEach
+        elementos.forEach(function(elemento) {
+            elemento.addEventListener('click', function() {
+                // Muda o valor do atributo 'value' quando o elemento é clicado
+                elemento.value = "Novo Valor";
+            });
+        });
+    </script>
+
+</body>
+</html>
