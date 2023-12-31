@@ -39,14 +39,14 @@ div#playGame {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 229, 255, 0.552);
+    background-color: rgba(0, 229, 255, 0.06);
     height: 300px;
     width: 100%;
     flex-direction: column;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.396);
 }
 
-.jogadores {
+.jogadores { 
     height: 30px;
     border-radius: 4px;
     margin: 10px 2px;
@@ -96,3 +96,12 @@ main#jogo {
 .A, .B {
     border-bottom: 4px solid black;
 }
+
+
+#jogadorDaVez {
+    font-size: 3em;
+    padding-top: 25px;
+    
+    
+}
+
