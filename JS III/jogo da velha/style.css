@@ -47,7 +47,7 @@ div#playGame {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 229, 255, 0.06);
+    background-color: rgba(0, 229, 255, 0.071);
     height: 250px;
     width: 100%;
     flex-direction: column;
@@ -84,7 +84,7 @@ main#jogo {
     
 }
 
-.quadrado {
+.quadrado { /*Caixas - Jogo da Velha*/
     
     width: 100px;
     height: 100px;
@@ -94,6 +94,11 @@ main#jogo {
     font-size: 5em;
     
 }
+
+.quadrado:hover {
+    background-color: rgba(0, 229, 255, 0.071);
+}
+
 
 /*Bordas verticais -------------------------------------------------------*/
 #A1, #B1, #C1 {
@@ -122,28 +127,34 @@ section#container-placar {
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 'titulo-j1 vitorias titulo-j2'
                          'placar-j1 vs placar-j2';
-    gap: 0px 10px;
+    gap: 1px 1px;
     margin-bottom: 60px;
 }
 
 .placar {
     text-align: center;
+    border-radius: 3px;
+    
 }
 
 #titulo-j1 {
     grid-area: titulo-j1;
+    background-color: rgba(0, 153, 255, 0.597);
 }
 #vitorias {
     grid-area: vitorias;
+    background-color: rgba(0, 229, 255, 0.071);
 }
 #titulo-j2 {
     grid-area: titulo-j2;
+    background-color: rgba(255, 0, 0, 0.445);
 }
 #placar-j1 {
     grid-area: placar-j1;
 }
 #vs {
     grid-area: vs;
+    background-color: rgba(0, 229, 255, 0.071);
 }
 #placar-j2 {
     

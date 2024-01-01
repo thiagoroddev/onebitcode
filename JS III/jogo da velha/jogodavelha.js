@@ -107,8 +107,9 @@ novoJogo.addEventListener('click', function(eventoNovoJogo){
             botaoReiniciar = document.createElement('button')
             botaoReiniciar.id = 'reiniciar'
             botaoReiniciar.innerText = 'Reiniciar Rodadas'
+
             botaoReiniciar.addEventListener('click', function(ev){   
-                location.reload();
+                eventoNovoJogo(); // Recarrega a página
                 
             })
 
@@ -212,7 +213,6 @@ function ganhador() {
             
         } else if (A1 && A2 && A3 && B1 && B2 && B3 && C1 && C2 && C3) { 
             alert('EMPATOU!')
-            
             limpar()
         }  
        
