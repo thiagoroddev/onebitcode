@@ -182,6 +182,8 @@ function ganhador() {
     A3 === 'X' && B2 === 'X' && C1 === 'X') { 
         vitoriasJogador1++
         placarJogador1.innerText = vitoriasJogador1
+        
+        // Muda a cor do background das caixas marcdas pelo vencedor
         inputQuadrado.forEach(function(elemento){
            if (elemento.value === 'X'){
                elemento.style.backgroundColor = 'blue'
