@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Aprendendo a utilizar bibliotecas de terceiros com o módulo dayjs</h1>
+    <h2>Introdução</h2>
+    <p>Neste vídeo, vamos aprender uma habilidade muito importante para qualquer programador: a capacidade de utilizar
+        bibliotecas de terceiros.</p>
+    <p>Bibliotecas de terceiros são bibliotecas desenvolvidas por terceiros, ou seja, não foram desenvolvidas por nós. Elas
+        contêm funcionalidades prontas que podemos utilizar em nossos projetos para aumentar nossa produtividade e evitar
+        reinventar a roda.</p>
+    <p>Vamos praticar o uso de bibliotecas de terceiros através do módulo dayjs, que é uma biblioteca JavaScript moderna
+        para parse, validação, manipulação e formatação de datas.</p>
+    <h2>O desafio</h2>
+    <p>O desafio proposto é:</p>
+    <p>Criar uma função JavaScript que recebe como parâmetro a data de nascimento de uma pessoa no formato string e mostre
+        no terminal:</p>
+    <ul>
+        <li>A idade dessa pessoa no dia atual (hoje)</li>
+        <li>Sua próxima data de aniversário no formato DD/MM/YYYY</li>
+        <li>Quantos dias faltam para o seu próximo aniversário</li>
+    </ul>
+    <p>Para isso, vamos precisar:</p>
+    <ul>
+        <li>Acessar o site do NPM e pesquisar sobre o módulo dayjs</li>
+        <li>Consultar a documentação do dayjs</li>
+        <li>Aprender a utilizá-lo para resolver o desafio proposto</li>
+    </ul>
+    <h2>Conhecendo o NPM e o dayjs</h2>
+    <p>O NPM (Node Package Manager) é o gerenciador de pacotes do Node.js. Ele permite instalar e gerenciar bibliotecas e
+        módulos JavaScript de maneira fácil.</p>
+    <p>Basta acessar o site npmjs.com, pesquisar pelo módulo &quot;dayjs&quot; e veremos informações sobre ele, como
+        quantidade de downloads, versão atual, links para documentação e homepage, além de um guia de como utilizá-lo.</p>
+    <p><img src="dayjs-npm.png" alt="Página do dayjs no NPM" /></p>
+    <p>Podemos ver que o dayjs é um módulo popular, com mais de 19 milhões de downloads por semana! Isso significa que
+        muitos desenvolvedores estão utilizando essa biblioteca em seus projetos.</p>
+    <p>Além disso, na seção &quot;dayjs docs&quot; temos um link direto para a documentação oficial do módulo, onde
+        encontraremos guias e exemplos detalhados de uso.</p>
+    <h2>Lendo a documentação</h2>
+    <p>A documentação é essencial para aprender a usar qualquer biblioteca de terceiros. Ela explica como instalar,
+        configurar e utilizar os recursos disponíveis no módulo.</p>
+    <p>Ao acessar a <a href="https://day.js.org/docs/en/installation/installation">documentação do dayjs</a>, vemos logo de
+        início um guia de instalação. Para este projeto, como estamos utilizando Node.js, basta instalar via NPM:</p>
+    <pre><code>npm install dayjs</code></pre>
+    <p>Em seguida, para utilizá-lo no código:</p>
+    <pre><code class="language-js">var dayjs = require('dayjs') dayjs().format() // 2023-02-08T15:03:33+08:00</code></pre>
+    <p>Perceba que usamos <code>require()</code> porque estamos no Node.js. Se estivéssemos no browser, usaríamos
+        <code>import dayjs from 'dayjs'</code>.</p>
+    <p>A documentação explica os principais métodos da API do dayjs, com vários exemplos de uso. Por isso, é muito
+        importante ler e entender esses conceitos antes de sair codificando.</p>
+    <h2>Resolvendo o desafio</h2>
+    <p>Agora que já conhecemos o dayjs e sabemos como utilizá-lo, podemos começar a implementar a função solicitada no
+        desafio.</p>
+    <p>A dica deixada é procurar na documentação métodos para:</p>
+    <ul>
+        <li>Adicionar intervalos de tempo a uma data</li>
+        <li>Calcular a diferença entre duas datas</li>
+        <li>Exibir uma data em um formato específico</li>
+    </ul>
+    <p>Então, depois de ler a documentação, identificamos os seguintes métodos úteis:</p>
+    <ul>
+        <li><code>dayjs()</code>: cria um objeto Dayjs com a data e hora atuais</li>
+        <li><code>dayjs(dataString)</code>: cria um objeto Dayjs a partir de uma string de data</li>
+        <li><code>dayjs().add(numero, 'unidadeTempo')</code>: adiciona uma quantidade de tempo</li>
+        <li><code>dayjs().diff(outraData)</code>: retorna a diferença em milissegundos entre duas datas</li>
+        <li><code>dayjs().format('formato')</code>: formata a data conforme especificado</li>
+    </ul>
+    <p>Portanto, nossa função poderia ser implementada assim:</p>
+    <pre><code class="language-js">const dayjs = require('dayjs')function calculaIdade(dataNascimento) {  const hoje = dayjs()    const nascimento = dayjs(dataNascimento)    const idade = hoje.diff(nascimento, 'years')  const proximoAniversario = nascimento.add(idade + 1, 'years')  const diasParaAniversario = hoje.diff(proximoAniversario, 'days')  return {    idade,    proximoAniversario: proximoAniversario.format('DD/MM/YYYY'),    diasParaAniversario      }}console.log(calculaIdade('1990-02-03')) </code></pre>
+    <p>Essa função recebe a data de nascimento como string, calcula a idade comparando com a data atual, encontra a próxima
+        data de aniversário adicionando a idade + 1 ano no objeto data de nascimento, calcula quantos dias faltam para essa
+        data e retorna os dados formatados conforme solicitado!</p>
+    <p>Dessa forma, conseguimos completar o desafio de maneira simples e rápida, aproveitando uma excelente biblioteca open
+        source.</p>
+    <h2>Considerações finais</h2>
+    <p>Aprender a usar bibliotecas e módulos de terceiros é uma habilidade essencial para qualquer desenvolvedor moderno.
+        Isso porque evita termos que desenvolver soluções do zero para problemas comuns, como manipulação de datas.</p>
+    <p>O NPM possui milhares de bibliotecas úteis que podemos aproveitar em nossos projetos. Basta procurar por aquela que
+        resolve nosso problema específico.</p>
+    <p>Porém, para utilizar uma biblioteca de forma efetiva, é absolutamente necessário ler sua documentação. Nela
+        encontraremos guias de instalação e os detalhes de cada recurso disponível na API.</p>
+    <p>No caso do dayjs, vimos que se trata de uma excelente opção para lidar com datas no JavaScript moderno de forma
+        simples e intuitiva. Seu uso é bem parecido com a nativa Date API, com a vantagem de ter uma interface mais amigável
+        e imutável.</p>
+    <p>Portanto, não hesite em aproveitar bibliotecas de terceiros em seus projetos! Elas ajudarão você a resolver problemas
+        complexos de maneira rápida e mantendo seu código limpo e descomplicado.</p>
+    
+</body>
+</html>
