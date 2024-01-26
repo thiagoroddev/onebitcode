@@ -1,0 +1,15 @@
+{
+  "name": "npx",
+  "version": "1.0.0",
+  "description": "npx aula",
+  "main": "index.js",
+  "scripts": {
+    "oi": "oi"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hello-world-npm": "^1.1.1"
+  }
+}
