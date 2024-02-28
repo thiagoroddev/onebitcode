@@ -1,0 +1,1 @@
+(()=>{var o;document.body.appendChild(((o=document.createElement("div")).innerHTML="Hello",o)),console.log("It works!"),console.log("Testando 1 + 1 é : ".concat(2))})();
