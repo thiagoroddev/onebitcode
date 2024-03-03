@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+    <h1>Criando Classes em JavaScript</h1>
+    <h2>Introdução</h2>
+    <p>Este ebook aborda o conteúdo apresentado em um vídeo sobre a criação de classes em JavaScript. O objetivo é fornecer
+        instruções detalhadas e exemplos práticos de como criar duas classes diferentes utilizando JavaScript: uma classe
+        User e uma classe Product.</p>
+    <p>Primeiro, vamos revisar alguns conceitos importantes sobre orientação a objetos e classes em JavaScript. Depois,
+        seguiremos passo a passo a implementação da classe User e da classe Product, explicando cada parte do código.</p>
+    <p>Ao final deste ebook, você terá um guia completo de como criar suas próprias classes em JavaScript, definindo
+        atributos, métodos, construtores e muito mais. Vamos começar!</p>
+    <h2>Orientação a Objetos e Classes em JavaScript</h2>
+    <p>Antes de criarmos nossas classes, precisamos entender alguns conceitos básicos:</p>
+    <p><strong>Objetos:</strong> são entidades independentes com propriedades e tipos. Em JavaScript, objetos podem ser
+        criados utilizando a notação literal de objeto <code>{}</code> ou com o construtor <code>Object()</code>.</p>
+    <p><strong>Propriedades:</strong> são as características que definem um objeto, como por exemplo, um nome, uma cor, um
+        tamanho, etc. As propriedades são definidas na forma de pares chave-valor, como <code>nome: &quot;João&quot;</code>
+        por exemplo.</p>
+    <p><strong>Métodos:</strong> são ações que podem ser executadas em objetos. Os métodos são definidos na forma de funções
+        dentro do objeto.</p>
+    <p><strong>Classes:</strong> são modelos que servem como blueprint para a criação de objetos. As classes definem as
+        propriedades e métodos compartilhados por todos os objetos criados a partir dela.</p>
+    <p><strong>Construtores:</strong> são métodos especiais utilizados para inicializar objetos criados a partir de uma
+        classe. O construtor é chamado no momento da criação do objeto utilizando a palavra chave <code>new</code>.</p>
+    <p><strong>Instanciação:</strong> é o ato de criar um objeto novo baseado em uma classe. Ao instanciar uma classe, o
+        construtor é chamado para inicializar as propriedades do novo objeto.</p>
+    <p>Agora que revisamos os conceitos principais, podemos começar a implementar nossas duas classes em JavaScript!</p>
+    <h2>Implementando a Classe User</h2>
+    <p>A primeira classe que precisamos criar é a <code>User</code>, que representa um usuário com as seguintes
+        características:</p>
+    <ul>
+        <li><code>fullName</code> - O nome completo do usuário</li>
+        <li><code>email</code> - O email do usuário</li>
+        <li><code>password</code> - A senha do usuário</li>
+        <li><code>login()</code> - Um método para realizar o login</li>
+    </ul>
+    <p>Começamos criando um arquivo separado chamado <code>User.js</code> e dentro dele definimos a classe:</p>
+    <pre><code class="language-js">class User {  constructor(fullName, email, password) {    this.fullName = fullName;    this.email = email;     this.password = password;  }    login(email, password) {    if (email === this.email &amp;&amp; password === this.password) {      console.log('Login realizado com sucesso!');    } else {      console.log('Email ou senha incorretos.');    }  }}</code></pre>
+    <p>Vamos explicar parte por parte:</p>
+    <ul>
+        <li>
+            <p>Utilizamos a palavra chave <code>class</code> para definir a classe <code>User</code>.</p>
+        </li>
+        <li>
+            <p>Dentro dela, definimos o método especial <code>constructor()</code> que será chamado na hora da instanciação.
+            </p>
+        </li>
+        <li>
+            <p>No construtor, recebemos os parâmetros <code>fullName</code>, <code>email</code> e <code>password</code> que
+                serão as propriedades do objeto.</p>
+        </li>
+        <li>
+            <p>Utilizamos o <code>this</code> para fazer referência ao objeto que está sendo construído e armazenar essas
+                propriedades nele.</p>
+        </li>
+        <li>
+            <p>Depois, definimos o método <code>login()</code>, que recebe um email e uma senha para verificar se batem com
+                as propriedades do objeto.</p>
+        </li>
+        <li>
+            <p>Dentro do login, comparamos os parâmetros com as propriedades do objeto utilizando <code>this</code> e
+                retornamos uma mensagem de sucesso ou falha no login.</p>
+        </li>
+    </ul>
+    <p>Agora, podemos testar nossa classe <code>User</code> instanciando alguns objetos:</p>
+    <pre><code class="language-js">const joao = new User('João Silva', 'joao@email.com', '1234');joao.login('joao@email.com', '1234'); // Login realizado com sucesso! const maria = new User('Maria Oliveira', 'maria@email.com', '5678');maria.login('maria@email.com', '1234'); // Email ou senha incorretos</code></pre>
+    <p>Perfeito! Nossa classe <code>User</code> está funcionando corretamente.</p>
+    <h2>Implementando a Classe Product</h2>
+    <p>A segunda classe que precisamos implementar é a <code>Product</code>, que representa um produto com as seguintes
+        características:</p>
+    <ul>
+        <li><code>name</code> - O nome do produto</li>
+        <li><code>description</code> - A descrição do produto</li>
+        <li><code>price</code> - O preço do produto</li>
+        <li><code>inStock</code> - A quantidade em estoque, que começa em 0</li>
+        <li><code>addStock()</code> - Um método para adicionar unidades ao estoque</li>
+        <li><code>calculateDiscount()</code> - Um método que aplica um desconto ao preço</li>
+    </ul>
+    <p>Vamos criar um arquivo <code>Product.js</code> e implementar:</p>
+    <pre><code class="language-js">class Product {  constructor(name, description, price) {    this.name = name;    this.description = description;    this.price = price;     this.inStock = 0;   }    addStock(quantity) {   this.inStock += quantity;   }    calculateDiscount(percentage) {    let discount = this.price * (percentage / 100);    return this.price - discount;  }}</code></pre>
+    <p>Novamente, vamos explicar parte por parte:</p>
+    <ul>
+        <li>
+            <p>Definimos a classe <code>Product</code> com o construtor recebendo <code>name</code>,
+                <code>description</code> e <code>price</code>.</p>
+        </li>
+        <li>
+            <p>Também inicializamos a propriedade <code>inStock</code> com o valor padrão 0.</p>
+        </li>
+        <li>
+            <p>O método <code>addStock()</code> recebe uma quantidade e soma ao estoque atual utilizando
+                <code>this.inStock</code>.</p>
+        </li>
+        <li>
+            <p>Já o método <code>calculateDiscount()</code> recebe uma porcentagem de desconto, calcula sobre o preço e
+                retorna o preço com o desconto aplicado.</p>
+        </li>
+    </ul>
+    <p>Para testar:</p>
+    <pre><code class="language-js">const produto = new Product('Camisa', 'Camisa branca', 50);produto.addStock(10); console.log(produto.inStock); // 10console.log(produto.calculateDiscount(25)); // 37.5 (25% de desconto)</code></pre>
+    <p>Pronto! Nossas duas classes estão implementadas com sucesso seguindo os requisitos passados.</p>
+    <h2>Considerações Finais</h2>
+    <p>Neste ebook, aprendemos na prática como criar classes em JavaScript, utilizando construtores, propriedades, métodos e
+        instanciação de objetos.</p>
+    <p>Primeiro revisamos conceitos importantes de orientação a objetos e depois partimos para a implementação de duas
+        classes: a <code>User</code> e a <code>Product</code>, criando atributos, métodos e testando sua utilização.</p>
+    <p>Espero que este material sirva como um guia completo para você dominar a criação de classes em JavaScript. Não deixe
+        de praticar criando outras classes para fixar o conhecimento!</p>
+</body>
+</html>
