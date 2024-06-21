@@ -1,5 +1,3 @@
-
-
 class Product {
     constructor(name, description, price, inStock) {
         this.name = name
@@ -14,10 +12,10 @@ class Product {
     }
 }
 
-let productOne = new Product('Leite', 'Produdo alimentício', 11.99 , 10)
+let productOne = new Product('Leite', 'Produdo alimentício', 11.99, 10)
 
-console.log(productOne) 
+console.log(productOne)
 
 productOne.addOnStock(10)
 
-console.log(productOne) 
+console.log(productOne)
