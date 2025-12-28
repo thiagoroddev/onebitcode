@@ -1,0 +1,35 @@
+.container {
+    background-color: wheat;
+    border-radius: 1rem;
+    display: flex;
+    gap: 4rem;
+    height: 30rem;
+    width: 50rem;
+    overflow: hidden;
+    padding: 4rem;
+    margin: 10rem auto;
+}
+
+.poster {
+    border: 8px solid black;
+    box-shadow: 0 24px 32px -16px black;
+}
+
+.container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}   
+
+.container button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

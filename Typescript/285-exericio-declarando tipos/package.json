@@ -1,0 +1,15 @@
+{
+  "name": "285-exericio-declarando-tipos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc-watch": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
