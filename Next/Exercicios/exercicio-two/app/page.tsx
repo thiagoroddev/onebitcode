@@ -3,8 +3,8 @@ import sat from "@/public/images/sat.webp";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div className="flex min-h-screen items-center justify-center bg-fuchsia-500">
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
         {/* Usando a fonte local definida no layout */}
         <h1 className="text-5xl font-chandia">Testando importação local</h1>
         {/* Importando uma imagem local por string */}
