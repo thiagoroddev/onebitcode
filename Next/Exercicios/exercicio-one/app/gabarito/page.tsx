@@ -9,10 +9,10 @@ import {
 import {Button} from "@/components/ui/button";
 import Image from "next/image";
 
-export default function Home() {
+export default function Gabarito() {
   return (
     <>
-      <Card className="w-lvh bg-cyan-200 font-sans">
+      <Card className="w-lvh bg-amber-300 font-sans">
         <CardHeader>
           <CardTitle className="font-bold text-5xl">
             Conheça a família Macbook
