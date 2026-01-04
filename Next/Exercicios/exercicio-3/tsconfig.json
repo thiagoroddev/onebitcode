@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // This must be set if "paths" is set
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,

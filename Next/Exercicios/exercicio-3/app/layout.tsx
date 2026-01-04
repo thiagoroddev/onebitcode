@@ -1,3 +1,4 @@
+// layout.tsx
 import "./globals.css";
 import {TypographyH3} from "@/components/ui/typography";
 import {
@@ -16,9 +17,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className="dark">
-      <body>
-        <header>
+    <html lang="pt-BR" className="dark h-full">
+      <body className="h-full flex flex-col">
+        <header className="shrink-0">
           <div className="flex flex-row justify-between items-center gap-4 p-4 max-w-7xl mx-auto">
             <TypographyH3>Meu Site</TypographyH3>
 
@@ -35,7 +36,7 @@ export default function RootLayout({
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <Link href="/spacecrafts" passHref>
+                  <Link href="/espaconaves" passHref>
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
@@ -45,7 +46,7 @@ export default function RootLayout({
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <Link href="/categories" passHref>
+                  <Link href="/categorias" passHref>
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
@@ -56,10 +57,10 @@ export default function RootLayout({
               </NavigationMenuList>
             </NavigationMenu>
           </div>
+          <Separator />
         </header>
-        <Separator />
 
-        <main className="max-w-7xl mx-auto p-4">{children}</main>
+        <main className="flex-1 flex justify-center">{children}</main>
       </body>
     </html>
   );
