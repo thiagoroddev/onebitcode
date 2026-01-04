@@ -46,7 +46,7 @@ export default function RootLayout({
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <Link href="/categorias" passHref>
+                  <Link href="/categorias">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
