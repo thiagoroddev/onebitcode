@@ -8,7 +8,6 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import Link from "next/link";
 import {Separator} from "@/components/ui/separator";
 
 export default function RootLayout({
@@ -26,33 +25,30 @@ export default function RootLayout({
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <Link href="/" passHref>
-                    <NavigationMenuLink
-                      className={navigationMenuTriggerStyle()}
-                    >
-                      Início
-                    </NavigationMenuLink>
-                  </Link>
+                  <NavigationMenuLink
+                    href="/"
+                    className={navigationMenuTriggerStyle()}
+                  >
+                    Início
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <Link href="/espaconaves" passHref>
-                    <NavigationMenuLink
-                      className={navigationMenuTriggerStyle()}
-                    >
-                      Espaçonaves
-                    </NavigationMenuLink>
-                  </Link>
+                  <NavigationMenuLink
+                    href="/espaconaves"
+                    className={navigationMenuTriggerStyle()}
+                  >
+                    Espaçonaves
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <Link href="/categorias">
-                    <NavigationMenuLink
-                      className={navigationMenuTriggerStyle()}
-                    >
-                      Categorias
-                    </NavigationMenuLink>
-                  </Link>
+                  <NavigationMenuLink
+                    href="/categorias"
+                    className={navigationMenuTriggerStyle()}
+                  >
+                    Categorias
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
