@@ -35,14 +35,18 @@ export default async function CategoriaPage({params}: CategoriaPageProps) {
   }
 
   return (
-    <div className="max-w-3xl mx-auto p-4 flex flex-col items-center bg-fuchsia-500">
-      <TypographyH1>Categoria: {navesDaCategoria[0].category}</TypographyH1>
+    <div className="flex flex-col flex-1items-center">
+      <TypographyH1 className="mb-10 mt-4">
+        Categoria: {navesDaCategoria[0].category}
+      </TypographyH1>
 
-      <ul className="flex gap-3 flex-wrap mt-6 w-full justify-center">
+      <ul className="flex flex-wrap gap-4 justify-center p-4 max-w-2xl">
         {navesDaCategoria.map((nave) => (
-          <Link href={`/espaconaves/${nave.id}`} key={nave.id}>
-            <Button className="w-full">{nave.name}</Button>
-          </Link>
+          <li key={nave.id} className="flex justify-center">
+            <Link href={`/espaconaves/${nave.id}`}>
+              <Button>{nave.name}</Button>
+            </Link>
+          </li>
         ))}
       </ul>
     </div>
