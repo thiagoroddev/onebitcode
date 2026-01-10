@@ -1,0 +1,1416 @@
+
+═════════════════════════════════════════════════════════════
+          MONITOR DE SISTEMA - LOG DE ATIVIDADES
+          Início: 10/01/2026, 12:17:10
+═════════════════════════════════════════════════════════════
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:10
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 17s
+Uso de Memória:      30.98%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:11
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 18s
+Uso de Memória:      30.98%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:12
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 19s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:13
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 20s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:14
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 21s
+Uso de Memória:      30.99%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:15
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 22s
+Uso de Memória:      30.96%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:16
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 23s
+Uso de Memória:      30.99%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:17
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 24s
+Uso de Memória:      30.99%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:18
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 25s
+Uso de Memória:      31.00%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:19
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 26s
+Uso de Memória:      31.00%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:20
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 27s
+Uso de Memória:      31.05%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:21
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 28s
+Uso de Memória:      31.04%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:22
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 29s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:23
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 30s
+Uso de Memória:      31.05%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:24
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 31s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:25
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 32s
+Uso de Memória:      31.05%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:26
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 33s
+Uso de Memória:      31.01%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:27
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 34s
+Uso de Memória:      30.99%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:28
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 35s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:29
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 36s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:30
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 37s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:31
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 38s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:32
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 39s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:33
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 40s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:34
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 41s
+Uso de Memória:      31.04%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:35
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 42s
+Uso de Memória:      31.04%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:36
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 43s
+Uso de Memória:      31.06%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:37
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 44s
+Uso de Memória:      31.05%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:38
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 45s
+Uso de Memória:      31.06%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:39
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 46s
+Uso de Memória:      31.04%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:40
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 47s
+Uso de Memória:      31.04%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:41
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 48s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:42
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 49s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:43
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 50s
+Uso de Memória:      31.00%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:44
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 51s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:45
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 52s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:46
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 53s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:47
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 54s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:48
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 55s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:49
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 56s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:50
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 57s
+Uso de Memória:      31.02%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:51
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 58s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:52
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 42m 59s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:53
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 0s
+Uso de Memória:      31.00%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:54
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 1s
+Uso de Memória:      31.01%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:55
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 2s
+Uso de Memória:      31.06%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:56
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 3s
+Uso de Memória:      31.06%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:57
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 4s
+Uso de Memória:      31.08%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:58
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 5s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:17:59
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 6s
+Uso de Memória:      31.11%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:00
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 7s
+Uso de Memória:      31.10%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:01
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 8s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:02
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 9s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:03
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 10s
+Uso de Memória:      31.10%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:04
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 11s
+Uso de Memória:      31.10%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:05
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 12s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:06
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 13s
+Uso de Memória:      31.06%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:07
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 14s
+Uso de Memória:      31.08%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:08
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 15s
+Uso de Memória:      31.08%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:09
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 16s
+Uso de Memória:      31.11%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:10
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 17s
+Uso de Memória:      31.11%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:11
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 18s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:12
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 19s
+Uso de Memória:      31.05%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:13
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 20s
+Uso de Memória:      31.06%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:14
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 21s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:15
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 22s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:16
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 23s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:17
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 24s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:18
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 25s
+Uso de Memória:      31.05%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:19
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 26s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:20
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 27s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:21
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 28s
+Uso de Memória:      31.03%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:22
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 29s
+Uso de Memória:      31.04%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:23
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 30s
+Uso de Memória:      31.05%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:24
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 31s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:25
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 32s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:26
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 33s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:27
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 34s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:28
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 35s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:29
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 36s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:30
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 37s
+Uso de Memória:      31.06%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:31
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 38s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:32
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 39s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:33
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 40s
+Uso de Memória:      31.10%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:34
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 41s
+Uso de Memória:      31.11%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:35
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 42s
+Uso de Memória:      31.08%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:36
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 43s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:37
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 44s
+Uso de Memória:      31.07%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:38
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 45s
+Uso de Memória:      31.08%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:39
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 46s
+Uso de Memória:      31.08%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:40
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 47s
+Uso de Memória:      31.11%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:41
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 48s
+Uso de Memória:      31.11%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:42
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 49s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:43
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 50s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:44
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 51s
+Uso de Memória:      31.08%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:45
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 52s
+Uso de Memória:      31.08%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:46
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 53s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:47
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 54s
+Uso de Memória:      31.10%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:48
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 55s
+Uso de Memória:      31.08%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:49
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 56s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:50
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 57s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:51
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 58s
+Uso de Memória:      31.10%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:52
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 43m 59s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:53
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 0s
+Uso de Memória:      31.10%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:54
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 1s
+Uso de Memória:      31.13%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:55
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 2s
+Uso de Memória:      31.13%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:56
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 3s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:57
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 4s
+Uso de Memória:      31.09%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:58
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 5s
+Uso de Memória:      31.14%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:18:59
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 6s
+Uso de Memória:      31.14%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:00
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 7s
+Uso de Memória:      31.16%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:01
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 8s
+Uso de Memória:      31.15%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:02
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 9s
+Uso de Memória:      31.15%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:03
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 10s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:04
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 11s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:05
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 12s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:06
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 13s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:07
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 14s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:08
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 15s
+Uso de Memória:      31.11%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:09
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 16s
+Uso de Memória:      31.12%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:10
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 17s
+Uso de Memória:      31.13%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:11
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 18s
+Uso de Memória:      31.18%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:12
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 19s
+Uso de Memória:      31.17%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:13
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 20s
+Uso de Memória:      31.17%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:14
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 21s
+Uso de Memória:      31.17%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:15
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 22s
+Uso de Memória:      31.18%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:16
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 23s
+Uso de Memória:      31.18%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:17
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 24s
+Uso de Memória:      31.17%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:18
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 25s
+Uso de Memória:      31.17%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:19
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 26s
+Uso de Memória:      31.15%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:20
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 27s
+Uso de Memória:      31.15%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:21
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 28s
+Uso de Memória:      31.17%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:22
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 29s
+Uso de Memória:      31.18%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:23
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 30s
+Uso de Memória:      31.14%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:24
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 31s
+Uso de Memória:      31.15%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:25
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 32s
+Uso de Memória:      31.19%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:26
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 33s
+Uso de Memória:      31.19%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:27
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 34s
+Uso de Memória:      31.20%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:28
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 35s
+Uso de Memória:      31.22%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:29
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 36s
+Uso de Memória:      12.70%
+─────────────────────────────────────────────────────────────
+
+
+─────────────────────────────────────────────────────────────
+Data/Hora:           10/01/2026, 12:19:30
+Sistema Operacional: Linux
+Arquitetura:         x64
+Processador:         Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+Tempo de Atividade:  5d 20h 44m 37s
+Uso de Memória:      12.44%
+─────────────────────────────────────────────────────────────
+
